@@ -4,7 +4,7 @@ from imutils.video import FPS
 face_detect=cv2.CascadeClassifier('C:\Users\Adithya\Desktop\isi\haarcascade_frontalface_default.xml')
 eye_detect=cv2.CascadeClassifier("isi\haarcascade_eye.xml")
 cap=cv2.VideoCapture('C:\Users\Adithya\Desktop\sample.mp4')
-#cap = cv2.VideoCapture('C:\Users\Adithya\Videos\Hindi\Baby 2015 Hindi 720p HDRip x264 AAC...Hon3y\Baby 2015 Hindi 720p HDRip x264 AAC...Hon3y.mkv')
+#cap = cv2.VideoCapture('C:\Users\Adithya\Videos\HDRip x264 AAC...Hon3y.mkv')
 fps=FPS().start()
 while True:
 	_,img=cap.read()
